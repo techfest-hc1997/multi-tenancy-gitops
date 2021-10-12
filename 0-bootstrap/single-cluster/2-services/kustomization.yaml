@@ -64,7 +64,7 @@ resources:
 #- argocd/instances/openshift-service-mesh-instance.yaml
 
 # Monitoring
-#- argocd/instances/instana-agent.yaml
+- argocd/instances/instana-agent.yaml
 
 patches:
 - target:
